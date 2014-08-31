@@ -1,0 +1,22 @@
+{
+    "name" : "Keeper",
+    "version" : "0.1",
+    "manifest_version": 2,
+    "description" : "Keeps things that you'd like to see later",
+    "icons" : {
+        "128" : "images/icon_original.png"
+    },
+    "background" : {
+        "scripts" : ["eventPage.js"],
+        "persistent" : false
+    },
+    "browser_action" : {
+        "default_title" : "Keeper",
+        "default_icon" : "images/icon38.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : [
+        "storage",
+        "tabs"
+    ]
+}

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="keeper.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    Target url:
+                </td>
+                <td>
+                    <p id="currentLink">Loading...</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Tags (use space as delimiter):
+                </td>
+                <td>
+                    <input id="tags" type="textarea"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Notes:
+                </td>
+                <td>
+                    <textarea id="notes"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <div class="to-right">
+                        <input id="keep-button" type="button" value="Keep it" />
+                        <input id="close-button" type="button" value="Hide" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
